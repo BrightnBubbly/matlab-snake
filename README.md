@@ -22,7 +22,7 @@ x=[x,x(v)+/- 1]; 				x=[x,[r]];
 v= length(x);
 % to make the snake of more than one unit move
 % set up a for loop that runs from the second to the last terms of the vector
-for q=v:-1:2 
+for q=v : -1 : 2 
        		% make each term in each matrix equal to the term before it, start with the last
 x(q)=x(q-1); 
 y(q)=y(q-1); 
@@ -34,7 +34,3 @@ While I have tried to eliminate as many errors as I could, there are bound to be
 If I were to do this project again, there are a few things I would change. First, I would implement a scoring system and notify the user of his progress. This would increase the challenge. I would also make it so that the snake could have more than one speed. If you pressed a direction key and the snake was already going in that direction, the snake would speed up. This would give the user a greater sense of control over the game, keeping his attention longer. It might also be fun for the user to be able to choose the color and shape of the snake. This doesn’t seem like it would be too difficult. Another way to implement this is to have the code randomly generate a shape and color for the snake.  
 
 While it was certainly challenging, I really enjoyed the problem solving involved in creating this code. While, looking back on the project, the beginning checkpoints were conceptually easier; I felt more at ease during the later parts of the project. I think this is because I was able to learn how to step through my code myself and understand what my errors were and how to fix them. In the beginning, when I would run into a problem, I just messed things around until something changed and my coding was largely blind trial and error. Things really became interesting once I started to be able to think about what I was doing. I really appreciate having done this project. I feel really accomplished and interested in pursuing further computer science classes now. 
-
-References:
-Mathworks.com/help
-https://culearn.colorado.edu/webct/urw/lc5116011.tp0/cobaltMainFrame.dowebct
